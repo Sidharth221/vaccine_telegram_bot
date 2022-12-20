@@ -5,7 +5,7 @@ import datetime
 import time
 
 #MYSQL DATABASE CONNECTION
-conn=mcc.connect(host="localhost",user="root",passwd="mysqlroot",database="vaccine_book")
+conn=mcc.connect(host="localhost",user="root",passwd="Enter your db password",database="vaccine_book")
 cursor=conn.cursor()
 
 #CREATING AN EMPTY DICTIONARY TO STORE USER RESPONSES
